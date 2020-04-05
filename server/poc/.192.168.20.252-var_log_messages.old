@@ -1,0 +1,219 @@
+
+----- System log -----
+
+2019-10-07T16:21:17.701+00:00 axis-00408cf5b0f1 [ WARNING ] mergeresolv.sh[680]: nothing to merge falling back to backup plan!
+2019-10-07T16:21:24.271+00:00 axis-00408cf5b0f1 [ WARNING ] ipchanged[794]: respawnd not running.
+2019-10-07T16:21:27.828+00:00 axis-00408cf5b0f1 [ INFO    ] systemd[1]: Starting Recording indexer...
+2019-10-07T16:21:27.900+00:00 axis-00408cf5b0f1 [ WARNING ] mergeresolv.sh[1195]: nothing to merge falling back to backup plan!
+2019-10-07T16:21:28.361+00:00 axis-00408cf5b0f1 [ INFO    ] systemd[1]: Started Volatile resolver configuration.
+2019-10-07T16:21:28.413+00:00 axis-00408cf5b0f1 [ INFO    ] systemd[1]: Started Switch to multi-user.target.
+2019-10-07T16:21:28.612+00:00 axis-00408cf5b0f1 [ INFO    ] systemd[1]: Starting Streaming services.
+2019-10-07T16:21:28.613+00:00 axis-00408cf5b0f1 [ INFO    ] net[1178]: media: auto
+2019-10-07T16:21:28.613+00:00 axis-00408cf5b0f1 [ INFO    ] systemd[1]: Reached target Streaming services.
+2019-10-07T16:21:28.614+00:00 axis-00408cf5b0f1 [ INFO    ] systemd[1]: Started Migration of certificates.
+2019-10-07T16:21:28.614+00:00 axis-00408cf5b0f1 [ INFO    ] systemd[1]: Starting Power control daemon...
+2019-10-07T16:21:28.627+00:00 axis-00408cf5b0f1 [ INFO    ] net[1178]: eth0 going down
+2019-10-07T16:21:28.627+00:00 axis-00408cf5b0f1 [ INFO    ] systemd[1]: Starting httpd (Apache)...
+2019-10-07T16:21:28.656+00:00 axis-00408cf5b0f1 [ INFO    ] systemd[1]: Starting Limited web page setup for locked camera...
+2019-10-07T16:21:28.680+00:00 axis-00408cf5b0f1 [ INFO    ] net[1178]: /etc/init.d/net: line 219: can't open /var/run/dhcp/dhcp6_eth0.pid: no such file
+2019-10-07T16:21:28.711+00:00 axis-00408cf5b0f1 [ INFO    ] systemd[1]: Starting firewall preventing http access during boot...
+2019-10-07T16:21:28.754+00:00 axis-00408cf5b0f1 [ INFO    ] systemd[1]: Starting Time source selector...
+2019-10-07T16:21:28.797+00:00 axis-00408cf5b0f1 [ INFO    ] systemd[1]: Starting Post-mortem debug archive CGI...
+2019-10-07T16:21:28.803+00:00 axis-00408cf5b0f1 [ INFO    ] indexer[1202]: indexer[1202]: indexer started successfully
+2019-10-07T16:21:28.805+00:00 axis-00408cf5b0f1 [ NOTICE  ] indexer[1202]: indexer started successfully
+2019-10-07T16:21:28.872+00:00 axis-00408cf5b0f1 [ INFO    ] systemd[1]: Starting Framerate setter...
+2019-10-07T16:21:28.918+00:00 axis-00408cf5b0f1 [ INFO    ] systemd[1]: Starting Bandwidth measurement daemon...
+2019-10-07T16:21:29.035+00:00 axis-00408cf5b0f1 [ INFO    ] systemd[1]: Started Bandwidth measurement daemon.
+2019-10-07T16:21:29.087+00:00 axis-00408cf5b0f1 [ INFO    ] systemd[1]: Starting Event bridge...
+2019-10-07T16:21:29.149+00:00 axis-00408cf5b0f1 [ INFO    ] systemd[1]: Started Event bridge.
+2019-10-07T16:21:29.153+00:00 axis-00408cf5b0f1 [ INFO    ] systemd[1]: Starting PoE+ detection...
+2019-10-07T16:21:29.196+00:00 axis-00408cf5b0f1 [ INFO    ] systemd[1]: Starting Temperature controller...
+2019-10-07T16:21:29.259+00:00 axis-00408cf5b0f1 [ INFO    ] systemd[1]: Starting Default event producer...
+2019-10-07T16:21:29.346+00:00 axis-00408cf5b0f1 [ NOTICE  ] dbus[839]: [system] Activating via systemd: service name='com.axis.Storage' unit='dbus-com.axis.Storage.service'
+2019-10-07T16:21:29.378+00:00 axis-00408cf5b0f1 [ INFO    ] systemd[1]: Starting Parameter upgrader...
+2019-10-07T16:21:29.446+00:00 axis-00408cf5b0f1 [ INFO    ] systemd[1]: Started Parameter upgrader.
+2019-10-07T16:21:29.483+00:00 axis-00408cf5b0f1 [ INFO    ] systemd[1]: Starting PoE+ over LLDP...
+2019-10-07T16:21:29.559+00:00 axis-00408cf5b0f1 [ INFO    ] systemd[1]: Starting Casing monitor daemon...
+2019-10-07T16:21:29.584+00:00 axis-00408cf5b0f1 [ INFO    ] poe-plus-setup[1264]: Detected Dual_IEEE802.3at; not doing anything
+2019-10-07T16:21:29.673+00:00 axis-00408cf5b0f1 [ INFO    ] systemd[1]: Starting Active storage manager...
+2019-10-07T16:21:29.742+00:00 axis-00408cf5b0f1 [ INFO    ] systemd[1]: Starting Change IP over ping...
+2019-10-07T16:21:29.823+00:00 axis-00408cf5b0f1 [ INFO    ] param_upgrader[1278]: All services handled, shutting down
+2019-10-07T16:21:29.848+00:00 axis-00408cf5b0f1 [ INFO    ] systemd[1]: Starting FTP server...
+2019-10-07T16:21:29.978+00:00 axis-00408cf5b0f1 [ INFO    ] ipsetd[1301]: Timeout in 120 s.
+2019-10-07T16:21:30.006+00:00 axis-00408cf5b0f1 [ INFO    ] ipsetd[1301]: Expecting echo request payload 408 bytes.
+2019-10-07T16:21:30.006+00:00 axis-00408cf5b0f1 [ INFO    ] ipsetd[1301]: On echo request arrival, execute /etc/ipsetd.script.
+2019-10-07T16:21:30.224+00:00 axis-00408cf5b0f1 [ INFO    ] casd: Starting casd
+2019-10-07T16:21:30.374+00:00 axis-00408cf5b0f1 [ INFO    ] zeroconf-ip[967]: claimed 169.254.246.167
+2019-10-07T16:21:30.505+00:00 axis-00408cf5b0f1 [ INFO    ] systemd[1]: Started Limited web page setup for locked camera.
+2019-10-07T16:21:30.609+00:00 axis-00408cf5b0f1 [ INFO    ] systemd[1]: Started firewall preventing http access during boot.
+2019-10-07T16:21:30.672+00:00 axis-00408cf5b0f1 [ NOTICE  ] eventbridged[1257]: Starting EventBridged
+2019-10-07T16:21:30.733+00:00 axis-00408cf5b0f1 [ INFO    ] systemd[1]: Started Time source selector.
+2019-10-07T16:21:30.787+00:00 axis-00408cf5b0f1 [ NOTICE  ] eventbridged[1257]: loaded plugin module: /usr/lib/eventbridge_plugins/libdriver_state.so
+2019-10-07T16:21:30.826+00:00 axis-00408cf5b0f1 [ INFO    ] temperature-ctrl-setup[1265]: temperature_ctrld[1265]: temperature_ctrld starting.
+2019-10-07T16:21:30.830+00:00 axis-00408cf5b0f1 [ INFO    ] temperature_ctrld[1265]: temperature_ctrld starting.
+2019-10-07T16:21:30.869+00:00 axis-00408cf5b0f1 [ NOTICE  ] eventbridged[1257]: loaded plugin module: /usr/lib/eventbridge_plugins/liblive_stream.so
+2019-10-07T16:21:30.870+00:00 axis-00408cf5b0f1 [ INFO    ] systemd[1]: Started Post-mortem debug archive CGI.
+2019-10-07T16:21:30.905+00:00 axis-00408cf5b0f1 [ NOTICE  ] eventbridged[1257]: loaded plugin module: /usr/lib/eventbridge_plugins/libsystemd.so
+2019-10-07T16:21:30.917+00:00 axis-00408cf5b0f1 [ INFO    ] systemd[1]: Started PoE+ detection.
+2019-10-07T16:21:31.099+00:00 axis-00408cf5b0f1 [ INFO    ] systemd[1]: Started Change IP over ping.
+2019-10-07T16:21:31.418+00:00 axis-00408cf5b0f1 [ INFO    ] ftp-banner-setup[1344]: Initializing vftpd banner
+2019-10-07T16:21:31.666+00:00 axis-00408cf5b0f1 [ INFO    ] systemd[1]: Started FTP server.
+2019-10-07T16:21:31.817+00:00 axis-00408cf5b0f1 [ INFO    ] vftpd[1351]: Starting vftpd 0.01
+2019-10-07T16:21:32.171+00:00 axis-00408cf5b0f1 [ INFO    ] systemd[1]: Started Power control daemon.
+2019-10-07T16:21:32.533+00:00 axis-00408cf5b0f1 [ NOTICE  ] dbus[839]: [system] Successfully activated service 'com.axis.Storage'
+2019-10-07T16:21:32.637+00:00 axis-00408cf5b0f1 [ INFO    ] systemd[1]: Started PoE+ over LLDP.
+2019-10-07T16:21:32.765+00:00 axis-00408cf5b0f1 [ INFO    ] net[1178]: Stopping zeroconf on eth0
+2019-10-07T16:21:32.840+00:00 axis-00408cf5b0f1 [ NOTICE  ] disks[1294]: Disk SD_DISK (/dev/mmcblk0p1) not present
+2019-10-07T16:21:32.854+00:00 axis-00408cf5b0f1 [ NOTICE  ] disks[1294]: Disk SD_DISK starting mount w/ id 1
+2019-10-07T16:21:32.855+00:00 axis-00408cf5b0f1 [ NOTICE  ] disks[1294]: Disk SD_DISK (/dev/mmcblk0p1) not present
+2019-10-07T16:21:32.868+00:00 axis-00408cf5b0f1 [ NOTICE  ] disks[1294]: Disk NetworkShare starting mount w/ id 2
+2019-10-07T16:21:32.868+00:00 axis-00408cf5b0f1 [ WARNING ] disks[1294]: disk.c : Disk disruption detection status changed for SD_DISK. Status = 'disruption'
+2019-10-07T16:21:32.889+00:00 axis-00408cf5b0f1 [ WARNING ] disks[1294]: Failed to get /sys/ path for /dev/mmcblk0p1
+2019-10-07T16:21:32.890+00:00 axis-00408cf5b0f1 [ INFO    ] systemd[1]: Started Default event producer.
+2019-10-07T16:21:33.044+00:00 axis-00408cf5b0f1 [ WARNING ] disks[1294]: disk.c : Disk disruption detection status changed for NetworkShare. Status = 'disruption'
+2019-10-07T16:21:33.143+00:00 axis-00408cf5b0f1 [ NOTICE  ] indexer[1202]: Starting database event handler
+2019-10-07T16:21:33.144+00:00 axis-00408cf5b0f1 [ INFO    ] indexer[1202]: indexer[1202]: Starting database event handler
+2019-10-07T16:21:33.381+00:00 axis-00408cf5b0f1 [ NOTICE  ] dbus[839]: [system] Successfully activated service 'com.axis.Indexer'
+2019-10-07T16:21:33.625+00:00 axis-00408cf5b0f1 [ INFO    ] systemd[1]: Started Framerate setter.
+2019-10-07T16:21:33.731+00:00 axis-00408cf5b0f1 [ INFO    ] systemd[1]: Started Casing monitor daemon.
+2019-10-07T16:21:33.921+00:00 axis-00408cf5b0f1 [ INFO    ] monolith[1019]: Setting up buffer factory.
+2019-10-07T16:21:33.921+00:00 axis-00408cf5b0f1 [ INFO    ] monolith[1019]: monolith[1019]: Setting up buffer factory.
+2019-10-07T16:21:34.260+00:00 axis-00408cf5b0f1 [ INFO    ] systemd[1]: Started Temperature controller.
+2019-10-07T16:21:34.266+00:00 axis-00408cf5b0f1 [ INFO    ] systemd[1]: Started Active storage manager.
+2019-10-07T16:21:34.284+00:00 axis-00408cf5b0f1 [ INFO    ] systemd[1]: Started Recording indexer.
+2019-10-07T16:21:34.306+00:00 axis-00408cf5b0f1 [ INFO    ] systemd[1]: Stopping Zero configuration networking on eth0...
+2019-10-07T16:21:34.322+00:00 axis-00408cf5b0f1 [ INFO    ] systemd[1]: Starting Legacy runlevel 3...
+2019-10-07T16:21:34.469+00:00 axis-00408cf5b0f1 [ INFO    ] systemd[1]: Stopped Zero configuration networking on eth0.
+2019-10-07T16:21:35.294+00:00 axis-00408cf5b0f1 [ INFO    ] net[1178]: /etc/init.d/net: line 219: can't open /var/run/dhcp/dhcp4_eth0.pid: no such file
+2019-10-07T16:21:35.362+00:00 axis-00408cf5b0f1 [ INFO    ] net[1178]: eth0 going up
+2019-10-07T16:21:35.928+00:00 axis-00408cf5b0f1 [ INFO    ] net[1178]: Starting wpa supplicant
+2019-10-07T16:21:35.959+00:00 axis-00408cf5b0f1 [ INFO    ] net[1178]: wpa_supplicant: disabled, see /etc/conf.d/wpa_supplicant.eth0.
+2019-10-07T16:21:35.983+00:00 axis-00408cf5b0f1 [ INFO    ] net[1178]: /etc/init.d/net: line 219: can't open /var/run/dhcp/dhcp4_eth0.pid: no such file
+2019-10-07T16:21:35.983+00:00 axis-00408cf5b0f1 [ INFO    ] net[1178]: Boot protocol: 'none'.
+2019-10-07T16:21:35.983+00:00 axis-00408cf5b0f1 [ INFO    ] net[1178]: IPv4 on 'eth0'.
+2019-10-07T16:21:36.105+00:00 axis-00408cf5b0f1 [ INFO    ] axisns[1445]: registration: IPv4 address on eth0 is required to run AXIS Internet Dynamic DNS Service
+2019-10-07T16:21:36.267+00:00 axis-00408cf5b0f1 [ INFO    ] net[1178]: IP address: '192.168.20.252'.
+2019-10-07T16:21:36.267+00:00 axis-00408cf5b0f1 [ INFO    ] net[1178]: broadcast address: '192.168.20.255'.
+2019-10-07T16:21:36.267+00:00 axis-00408cf5b0f1 [ INFO    ] net[1178]: netmask: '255.255.255.0'.
+2019-10-07T16:21:36.268+00:00 axis-00408cf5b0f1 [ INFO    ] net[1178]: default IPv4 gateway: '192.168.20.1'.
+2019-10-07T16:21:36.282+00:00 axis-00408cf5b0f1 [ INFO    ] axisns[1445]: service has name: com.axis.AxisNS
+2019-10-07T16:21:36.410+00:00 axis-00408cf5b0f1 [ INFO    ] systemd[1]: Started httpd (Apache).
+2019-10-07T16:21:36.614+00:00 axis-00408cf5b0f1 [ INFO    ] mdnsd[1492]: starting
+2019-10-07T16:21:36.643+00:00 axis-00408cf5b0f1 [ INFO    ] net[1178]: Starting zeroconf on eth0
+2019-10-07T16:21:36.734+00:00 axis-00408cf5b0f1 [ INFO    ] systemd[1]: Starting Zero configuration networking on eth0...
+2019-10-07T16:21:36.948+00:00 axis-00408cf5b0f1 [ INFO    ] debugar.cgi[1325]: pid 2 name kthreadd fork_score 33 [+33]
+2019-10-07T16:21:37.095+00:00 axis-00408cf5b0f1 [ INFO    ] systemd[1]: Started Zero configuration networking on eth0.
+2019-10-07T16:21:37.131+00:00 axis-00408cf5b0f1 [ INFO    ] net[1178]: no IPv6 on eth0
+2019-10-07T16:21:37.143+00:00 axis-00408cf5b0f1 [ INFO    ] net[1178]: /etc/init.d/net: line 219: can't open /var/run/dhcp/dhcp6_eth0.pid: no such file
+2019-10-07T16:21:37.257+00:00 axis-00408cf5b0f1 [ INFO    ] systemd[1]: Started Complete network re-configuration on eth0.
+2019-10-07T16:21:37.354+00:00 axis-00408cf5b0f1 [ INFO    ] emotiond: emotion.c: main(): Starting Enhanced Motion Detection
+2019-10-07T16:21:37.433+00:00 axis-00408cf5b0f1 [ WARNING ] blinkenlights[1150]: CancelState - Failed to cancel state.
+2019-10-07T16:21:37.434+00:00 axis-00408cf5b0f1 [ INFO    ] blinkenlights[1150]: blinkenlights[1150]: CancelState - Failed to cancel state.
+2019-10-07T16:21:37.762+00:00 axis-00408cf5b0f1 [ INFO    ] root: /etc/ipchanged.script: New IP address for eth0 is 169.254.246.167.
+2019-10-07T16:21:38.480+00:00 axis-00408cf5b0f1 [ INFO    ] ipchanged[794]: * Restarting libupnp...
+2019-10-07T16:21:38.697+00:00 axis-00408cf5b0f1 [ INFO    ] libupnp[1057]: Exiting...
+2019-10-07T16:21:38.840+00:00 axis-00408cf5b0f1 [ INFO    ] ipchanged[794]: /sbin/start-stop-daemon: warning: failed to kill 1057: No such process
+2019-10-07T16:21:38.979+00:00 axis-00408cf5b0f1 [ INFO    ] /bin/ssid[1573]: Starting.
+2019-10-07T16:21:38.994+00:00 axis-00408cf5b0f1 [ INFO    ] /bin/ssid[1573]: /usr/html/
+2019-10-07T16:21:39.467+00:00 axis-00408cf5b0f1 [ INFO    ] libupnp[1592]: UPnP Initialized(192.168.20.252:49152)
+2019-10-07T16:21:39.650+00:00 axis-00408cf5b0f1 [ INFO    ] ipchanged[794]: [ ok ]
+2019-10-07T16:21:39.691+00:00 axis-00408cf5b0f1 [ INFO    ] ipchanged[794]: * Reloading Bonjour...
+2019-10-07T16:21:40.065+00:00 axis-00408cf5b0f1 [ INFO    ] maskd[1590]: Maskd getting video type: 4
+2019-10-07T16:21:40.080+00:00 axis-00408cf5b0f1 [ INFO    ] ipchanged[794]: Bonjour not running
+2019-10-07T16:21:40.084+00:00 axis-00408cf5b0f1 [ INFO    ] ipchanged[794]: [ ok ]
+2019-10-07T16:21:40.132+00:00 axis-00408cf5b0f1 [ INFO    ] maskd[1624]: Maskd Starting
+2019-10-07T16:21:40.255+00:00 axis-00408cf5b0f1 [ INFO    ] root: /etc/ipchanged.script: Removed IP address 169.254.246.167 from eth0.
+2019-10-07T16:21:40.492+00:00 axis-00408cf5b0f1 [ INFO    ] ipchanged[794]: * Restarting libupnp...
+2019-10-07T16:21:40.551+00:00 axis-00408cf5b0f1 [ INFO    ] lang_handler[1653]: Starting.
+2019-10-07T16:21:40.578+00:00 axis-00408cf5b0f1 [ INFO    ] lang_handler[1653]: Waiting for connections.
+2019-10-07T16:21:40.632+00:00 axis-00408cf5b0f1 [ INFO    ] libupnp[1592]: Exiting...
+2019-10-07T16:21:41.363+00:00 axis-00408cf5b0f1 [ INFO    ] ipchanged[794]: [ ok ]
+2019-10-07T16:21:41.381+00:00 axis-00408cf5b0f1 [ INFO    ] libupnp[1679]: UPnP Initialized(192.168.20.252:49153)
+2019-10-07T16:21:41.472+00:00 axis-00408cf5b0f1 [ INFO    ] ipchanged[794]: * Reloading Bonjour...
+2019-10-07T16:21:41.973+00:00 axis-00408cf5b0f1 [ INFO    ] ipchanged[794]: Bonjour not running
+2019-10-07T16:21:41.979+00:00 axis-00408cf5b0f1 [ INFO    ] ipchanged[794]: [ ok ]
+2019-10-07T16:21:42.143+00:00 axis-00408cf5b0f1 [ INFO    ] root: /etc/ipchanged.script: Removed IP address 192.168.20.252 from eth0.
+2019-10-07T16:21:42.401+00:00 axis-00408cf5b0f1 [ INFO    ] ipchanged[794]: * Restarting libupnp...
+2019-10-07T16:21:42.526+00:00 axis-00408cf5b0f1 [ INFO    ] libupnp[1679]: Exiting...
+2019-10-07T16:21:43.108+00:00 axis-00408cf5b0f1 [ INFO    ] libupnp[1752]: UPnP Initialized(192.168.20.252:49153)
+2019-10-07T16:21:43.171+00:00 axis-00408cf5b0f1 [ INFO    ] ipchanged[794]: [ ok ]
+2019-10-07T16:21:43.179+00:00 axis-00408cf5b0f1 [ INFO    ] wsd[1763]: Starting wsd 0.01
+2019-10-07T16:21:43.272+00:00 axis-00408cf5b0f1 [ INFO    ] ipchanged[794]: * Reloading Bonjour...
+2019-10-07T16:21:43.359+00:00 axis-00408cf5b0f1 [ INFO    ] wsd[1763]: Read configuration
+2019-10-07T16:21:43.849+00:00 axis-00408cf5b0f1 [ NOTICE  ] dbus[839]: [system] Activating via systemd: service name='com.axis.PolicyKitParhand' unit='dbus-com.axis.PolicyKitParhand.service'
+2019-10-07T16:21:43.909+00:00 axis-00408cf5b0f1 [ INFO    ] systemd[1]: Starting PolicyKit parhand management...
+2019-10-07T16:21:43.960+00:00 axis-00408cf5b0f1 [ INFO    ] ipchanged[794]: Bonjour not running
+2019-10-07T16:21:43.963+00:00 axis-00408cf5b0f1 [ INFO    ] ipchanged[794]: [ ok ]
+2019-10-07T16:21:44.107+00:00 axis-00408cf5b0f1 [ INFO    ] root: /etc/ipchanged.script: New IP address for eth0 is 192.168.20.252.
+2019-10-07T16:21:44.303+00:00 axis-00408cf5b0f1 [ NOTICE  ] dbus[839]: [system] Successfully activated service 'com.axis.PolicyKitParhand'
+2019-10-07T16:21:44.321+00:00 axis-00408cf5b0f1 [ NOTICE  ] policykit_parhand[1802]: Policy Server now registered with the name 'com.axis.PolicyKitParhand' and object '/com/axis/PolicyKitParhand'
+2019-10-07T16:21:44.354+00:00 axis-00408cf5b0f1 [ INFO    ] policykit_parhand: Starting PolicykitParhand
+2019-10-07T16:21:44.356+00:00 axis-00408cf5b0f1 [ INFO    ] systemd[1]: Started PolicyKit parhand management.
+2019-10-07T16:21:44.939+00:00 axis-00408cf5b0f1 [ INFO    ] ipchanged[794]: * Restarting libupnp...
+2019-10-07T16:21:45.216+00:00 axis-00408cf5b0f1 [ INFO    ] ptzaurus[1816]: Starting driver IOPPT[1839]
+2019-10-07T16:21:45.309+00:00 axis-00408cf5b0f1 [ INFO    ] libupnp[1752]: Exiting...
+2019-10-07T16:21:45.320+00:00 axis-00408cf5b0f1 [ INFO    ] ptzaurus[1816]: Starting driver Camblock[1841]
+2019-10-07T16:21:46.398+00:00 axis-00408cf5b0f1 [ INFO    ] libupnp[1865]: UPnP Initialized(192.168.20.252:49154)
+2019-10-07T16:21:46.563+00:00 axis-00408cf5b0f1 [ INFO    ] zeroconf-ip[1511]: claimed 169.254.246.167
+2019-10-07T16:21:46.715+00:00 axis-00408cf5b0f1 [ INFO    ] ipchanged[794]: [ ok ]
+2019-10-07T16:21:46.837+00:00 axis-00408cf5b0f1 [ INFO    ] ipchanged[794]: * Reloading Bonjour...
+2019-10-07T16:21:47.309+00:00 axis-00408cf5b0f1 [ INFO    ] scm_cbd[1841]: Open "/dev/ttyS1", 38400 baud, 8E1 in "RS232" mode.
+2019-10-07T16:21:47.719+00:00 axis-00408cf5b0f1 [ INFO    ] ipchanged[794]: Bonjour not running
+2019-10-07T16:21:47.719+00:00 axis-00408cf5b0f1 [ INFO    ] ipchanged[794]: [ ok ]
+2019-10-07T16:21:48.011+00:00 axis-00408cf5b0f1 [ INFO    ] root: /etc/ipchanged.script: New IP address for eth0 is 169.254.246.167.
+2019-10-07T16:21:48.198+00:00 axis-00408cf5b0f1 [ INFO    ] parhand[934]: Updated configuration file /etc/dynamic/ptz_useradv.conf.
+2019-10-07T16:21:48.499+00:00 axis-00408cf5b0f1 [ INFO    ] parhand[934]: Deleted 'root.PTZ.Various.V1'.
+2019-10-07T16:21:48.599+00:00 axis-00408cf5b0f1 [ INFO    ] scm_cbd[1841]: Open "/dev/ttyS1", 38400 baud, 8E1 in "RS232" mode.
+2019-10-07T16:21:48.657+00:00 axis-00408cf5b0f1 [ INFO    ] parhand[934]: Created new group 'V1' for 'root.PTZ.Various'.
+2019-10-07T16:21:48.842+00:00 axis-00408cf5b0f1 [ INFO    ] ipchanged[794]: * Restarting libupnp...
+2019-10-07T16:21:49.131+00:00 axis-00408cf5b0f1 [ INFO    ] libupnp[1865]: Exiting...
+2019-10-07T16:21:49.669+00:00 axis-00408cf5b0f1 [ INFO    ] actionengined: Registered com.axis.Event.ActionEngine.System /com/axis/Event/ActionEngine
+2019-10-07T16:21:49.849+00:00 axis-00408cf5b0f1 [ NOTICE  ] actionengined: Loading "Button0 pressed" action rule
+2019-10-07T16:21:49.876+00:00 axis-00408cf5b0f1 [ NOTICE  ] actionengined: Loading "Button1 pressed" action rule
+2019-10-07T16:21:49.888+00:00 axis-00408cf5b0f1 [ NOTICE  ] actionengined: Loading "System ready" action rule
+2019-10-07T16:21:49.902+00:00 axis-00408cf5b0f1 [ NOTICE  ] actionengined: Loading "PTZ Driver on channel 1 is initializing" action rule
+2019-10-07T16:21:49.957+00:00 axis-00408cf5b0f1 [ NOTICE  ] dbus[839]: [system] Activating via systemd: service name='com.axis.PrioritizedTextOverlay' unit='dbus-com.axis.PrioritizedTextOverlay.service'
+2019-10-07T16:21:49.991+00:00 axis-00408cf5b0f1 [ INFO    ] systemd[1]: Starting Prioritized text overlay...
+2019-10-07T16:21:50.091+00:00 axis-00408cf5b0f1 [ INFO    ] libupnp[2000]: UPnP Initialized(192.168.20.252:49155)
+2019-10-07T16:21:50.333+00:00 axis-00408cf5b0f1 [ INFO    ] ipchanged[794]: [ ok ]
+2019-10-07T16:21:50.442+00:00 axis-00408cf5b0f1 [ INFO    ] ipchanged[794]: * Reloading Bonjour...
+2019-10-07T16:21:50.627+00:00 axis-00408cf5b0f1 [ INFO    ] actionengined: Registered com.axis.Event.ActionEngine.User /com/axis/Event/ActionEngine
+2019-10-07T16:21:50.946+00:00 axis-00408cf5b0f1 [ NOTICE  ] dbus[839]: [system] Successfully activated service 'com.axis.PrioritizedTextOverlay'
+2019-10-07T16:21:51.032+00:00 axis-00408cf5b0f1 [ INFO    ] systemd[1]: Started Prioritized text overlay.
+2019-10-07T16:21:51.035+00:00 axis-00408cf5b0f1 [ NOTICE  ] actionengined: Loading "PTZ Driver on channel 1 is not functional" action rule
+2019-10-07T16:21:51.059+00:00 axis-00408cf5b0f1 [ NOTICE  ] actionengined: Loading "PTZ Driver on channel 1 is upgrading" action rule
+2019-10-07T16:21:51.074+00:00 axis-00408cf5b0f1 [ NOTICE  ] actionengined: Loading "PTZ Driver on channel 1 is warming up" action rule
+2019-10-07T16:21:51.103+00:00 axis-00408cf5b0f1 [ NOTICE  ] actionengined: Loading "PTZ Driver on channel 1 is cooling down" action rule
+2019-10-07T16:21:51.232+00:00 axis-00408cf5b0f1 [ INFO    ] ipchanged[794]: Bonjour not running
+2019-10-07T16:21:51.237+00:00 axis-00408cf5b0f1 [ INFO    ] ipchanged[794]: [ ok ]
+2019-10-07T16:21:51.705+00:00 axis-00408cf5b0f1 [ NOTICE  ] actionengined: Action rule "PTZ Driver on channel 1 is initializing" is starting action "Prioritized Text Overlay"
+2019-10-07T16:21:51.997+00:00 axis-00408cf5b0f1 [ INFO    ] actionengined: Registered com.axis.Event.ActionEngine.Legacy /com/axis/Event/ActionEngine
+2019-10-07T16:21:52.554+00:00 axis-00408cf5b0f1 [ INFO    ] presettourd: Starting up...
+2019-10-07T16:21:52.935+00:00 axis-00408cf5b0f1 [ INFO    ] tourrecd: Starting up...
+2019-10-07T16:21:53.294+00:00 axis-00408cf5b0f1 [ INFO    ] tourplayerd: Starting up...
+2019-10-07T16:21:53.699+00:00 axis-00408cf5b0f1 [ INFO    ] tourd: Starting up...
+2019-10-07T16:21:55.699+00:00 axis-00408cf5b0f1 [ NOTICE  ] wsdd[2146]: Starting
+2019-10-07T16:21:56.577+00:00 axis-00408cf5b0f1 [ INFO    ] stclient: Starting /usr/bin/stclient
+2019-10-07T16:21:56.737+00:00 axis-00408cf5b0f1 [ INFO    ] stclient: [avhs-dbus.c:99] avhs service has name 'com.axis.AVHS'
+2019-10-07T16:21:56.743+00:00 axis-00408cf5b0f1 [ INFO    ] stclient: [avhs-dbus.c:111] object path '/com/axis/AVHS' already registered
+2019-10-07T16:22:01.382+00:00 axis-00408cf5b0f1 [ INFO    ] parhand[934]: Updated configuration file /etc/dynamic/ptz_useradv.conf.
+2019-10-07T16:22:03.759+00:00 axis-00408cf5b0f1 [ INFO    ] scm_cbd[1841]: Current firmware version is: V1.11.131119
+2019-10-07T16:22:04.941+00:00 axis-00408cf5b0f1 [ INFO    ] parhand[934]: Updated configuration file /etc/dynamic/ptz_useradv.conf.
+2019-10-07T16:22:05.107+00:00 axis-00408cf5b0f1 [ INFO    ] parhand[934]: Updated configuration file /etc/ptz/ptz.conf.
+2019-10-07T16:22:05.107+00:00 axis-00408cf5b0f1 [ NOTICE  ] actionengined: Action rule "PTZ Driver on channel 1 is initializing" is stopping action "Prioritized Text Overlay"
+2019-10-07T16:22:05.157+00:00 axis-00408cf5b0f1 [ INFO    ] parhand[934]: Updated configuration file /etc/ptz/ptz.conf.
+2019-10-07T16:22:05.429+00:00 axis-00408cf5b0f1 [ INFO    ] systemd[1]: Started Legacy runlevel 3.
+2019-10-07T16:22:05.435+00:00 axis-00408cf5b0f1 [ INFO    ] systemd[1]: Starting Legacy runlevel 6...
+2019-10-07T16:22:05.454+00:00 axis-00408cf5b0f1 [ INFO    ] systemd[1]: Starting remove firewall preventing http access during boot...
+2019-10-07T16:22:05.655+00:00 axis-00408cf5b0f1 [ INFO    ] systemd[1]: Started Legacy runlevel 6.
+2019-10-07T16:22:05.671+00:00 axis-00408cf5b0f1 [ INFO    ] systemd[1]: Started remove firewall preventing http access during boot.
+2019-10-07T16:22:05.763+00:00 axis-00408cf5b0f1 [ INFO    ] systemd[1]: Starting Multi-User System.
+2019-10-07T16:22:05.764+00:00 axis-00408cf5b0f1 [ INFO    ] systemd[1]: Reached target Multi-User System.
+2019-10-07T16:22:05.771+00:00 axis-00408cf5b0f1 [ INFO    ] systemd[1]: Startup finished in 11.387s (kernel) + 58.780s (userspace) = 1min 10.167s.
+2019-10-07T16:22:05.789+00:00 axis-00408cf5b0f1 [ NOTICE  ] actionengined: Action rule "System ready" is starting action "System ready LED"
+2019-10-07T16:22:36.927+00:00 axis-00408cf5b0f1 [ INFO    ] monolith[1019]: monolith[1019]: HTTP image/jpeg session created from 192.168.20.128
+2019-10-07T16:23:04.919+00:00 axis-00408cf5b0f1 [ INFO    ] upload.cgi: Uploaded '/tmp/poc_1_0_mipsisa32r2el.eap' size:44160
+2019-10-07T16:23:07.134+00:00 axis-00408cf5b0f1 [ NOTICE  ] dbus[839]: [system] Reloaded configuration
+2019-10-07T16:23:07.859+00:00 axis-00408cf5b0f1 [ NOTICE  ] dbus[839]: [system] Reloaded configuration
+2019-10-07T16:23:10.412+00:00 axis-00408cf5b0f1 [ INFO    ] upload.cgi: Package /tmp/poc_1_0_mipsisa32r2el.eap installation OK
+2019-10-07T16:23:10.424+00:00 axis-00408cf5b0f1 [ NOTICE  ] dbus[839]: [system] Reloaded configuration

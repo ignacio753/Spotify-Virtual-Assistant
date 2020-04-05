@@ -1,0 +1,252 @@
+
+----- System log -----
+
+
+2019-10-10T12:08:12.145+00:00 axis-accc8e2dc542 [ WARNING ] ptz-setup[942]: set_port_manager_first_cpu_mac_address: failed to get cpu_id
+2019-10-10T12:08:12.145+00:00 axis-accc8e2dc542 [ WARNING ] ptz-setup[942]: set_port_manager_first_cpu_mac_address: failed to get cpu_id
+2019-10-10T12:09:45.367+00:00 axis-accc8e2dc542 [ WARNING ] upload.cgi: Failed to set runstate for sdkpoc: /etc/systemd/system/acap.target.wants/sdkpoc.service link error
+2019-10-10T12:09:57.760+00:00 axis-accc8e2dc542 [ WARNING ] sdkpoc[2308]: respawnd not running.
+2019-10-10T12:10:01.568+00:00 axis-accc8e2dc542 [ WARNING ] control.cgi: Failed to set runstate for sdkpoc: /etc/systemd/system/acap.target.wants/sdkpoc.service link error
+2019-10-10T12:20:33.946+00:00 axis-accc8e2dc542 [ WARNING ] upload.cgi: Failed to set runstate for sdkpoc: /etc/systemd/system/acap.target.wants/sdkpoc.service link error
+2019-10-10T12:20:34.666+00:00 axis-accc8e2dc542 [ WARNING ] sdkpoc[3036]: respawnd not running.
+2019-10-10T12:20:47.460+00:00 axis-accc8e2dc542 [ WARNING ] sdkpoc[3226]: respawnd not running.
+2019-10-10T12:20:51.612+00:00 axis-accc8e2dc542 [ WARNING ] control.cgi: Failed to set runstate for sdkpoc: /etc/systemd/system/acap.target.wants/sdkpoc.service link error
+2019-10-10T12:23:56.459+00:00 axis-accc8e2dc542 [ INFO    ] poc: Capturing stream
+2019-10-10T12:23:56.647+00:00 axis-accc8e2dc542 [ INFO    ] poc: Size of data is: 45038
+2019-10-10T12:23:56.648+00:00 axis-accc8e2dc542 [ INFO    ] poc: Data sucessfully sent
+2019-10-10T12:23:56.649+00:00 axis-accc8e2dc542 [ INFO    ] poc: Capturing stream
+2019-10-10T12:23:56.786+00:00 axis-accc8e2dc542 [ INFO    ] poc: Size of data is: 45192
+2019-10-10T12:23:56.787+00:00 axis-accc8e2dc542 [ INFO    ] poc: Data sucessfully sent
+2019-10-10T12:23:56.788+00:00 axis-accc8e2dc542 [ INFO    ] poc: Capturing stream
+2019-10-10T12:23:56.895+00:00 axis-accc8e2dc542 [ INFO    ] poc: Size of data is: 42863
+2019-10-10T12:23:56.897+00:00 axis-accc8e2dc542 [ INFO    ] poc: Data sucessfully sent
+2019-10-10T12:23:56.898+00:00 axis-accc8e2dc542 [ INFO    ] poc: Capturing stream
+2019-10-10T12:23:56.993+00:00 axis-accc8e2dc542 [ INFO    ] poc: Size of data is: 42736
+2019-10-10T12:23:57.002+00:00 axis-accc8e2dc542 [ INFO    ] poc: Data sucessfully sent
+2019-10-10T12:23:57.003+00:00 axis-accc8e2dc542 [ INFO    ] poc: Capturing stream
+2019-10-10T12:23:57.095+00:00 axis-accc8e2dc542 [ INFO    ] poc: Size of data is: 41326
+2019-10-10T12:23:57.097+00:00 axis-accc8e2dc542 [ INFO    ] poc: Data sucessfully sent
+2019-10-10T12:23:57.098+00:00 axis-accc8e2dc542 [ INFO    ] poc: Capturing stream
+2019-10-10T12:23:57.191+00:00 axis-accc8e2dc542 [ INFO    ] poc: Size of data is: 40902
+2019-10-10T12:23:57.192+00:00 axis-accc8e2dc542 [ INFO    ] poc: Capturing stream
+2019-10-10T12:23:57.192+00:00 axis-accc8e2dc542 [ INFO    ] poc: Data sucessfully sent
+2019-10-10T12:23:57.289+00:00 axis-accc8e2dc542 [ INFO    ] poc: Size of data is: 40585
+2019-10-10T12:23:57.291+00:00 axis-accc8e2dc542 [ INFO    ] poc: Data sucessfully sent
+2019-10-10T12:23:57.292+00:00 axis-accc8e2dc542 [ INFO    ] poc: Capturing stream
+2019-10-10T12:23:57.371+00:00 axis-accc8e2dc542 [ INFO    ] poc: Size of data is: 41089
+2019-10-10T12:23:57.373+00:00 axis-accc8e2dc542 [ INFO    ] poc: Data sucessfully sent
+2019-10-10T12:23:57.374+00:00 axis-accc8e2dc542 [ INFO    ] poc: Capturing stream
+2019-10-10T12:23:57.456+00:00 axis-accc8e2dc542 [ INFO    ] poc: Size of data is: 40997
+2019-10-10T12:23:57.457+00:00 axis-accc8e2dc542 [ INFO    ] poc: Data sucessfully sent
+2019-10-10T12:23:57.470+00:00 axis-accc8e2dc542 [ INFO    ] poc: Capturing stream
+2019-10-10T12:23:57.556+00:00 axis-accc8e2dc542 [ INFO    ] poc: Size of data is: 40435
+2019-10-10T12:23:57.557+00:00 axis-accc8e2dc542 [ INFO    ] poc: Data sucessfully sent
+2019-10-10T12:23:57.558+00:00 axis-accc8e2dc542 [ INFO    ] poc: Capturing stream
+2019-10-10T12:23:57.655+00:00 axis-accc8e2dc542 [ INFO    ] poc: Size of data is: 40281
+2019-10-10T12:23:57.656+00:00 axis-accc8e2dc542 [ INFO    ] poc: Data sucessfully sent
+2019-10-10T12:23:57.658+00:00 axis-accc8e2dc542 [ INFO    ] poc: Capturing stream
+2019-10-10T12:23:57.756+00:00 axis-accc8e2dc542 [ INFO    ] poc: Size of data is: 40803
+2019-10-10T12:23:57.758+00:00 axis-accc8e2dc542 [ INFO    ] poc: Data sucessfully sent
+2019-10-10T12:23:57.765+00:00 axis-accc8e2dc542 [ INFO    ] poc: Capturing stream
+2019-10-10T12:23:57.853+00:00 axis-accc8e2dc542 [ INFO    ] poc: Size of data is: 40629
+2019-10-10T12:23:57.856+00:00 axis-accc8e2dc542 [ INFO    ] poc: Data sucessfully sent
+2019-10-10T12:23:57.860+00:00 axis-accc8e2dc542 [ INFO    ] poc: Capturing stream
+2019-10-10T12:23:57.979+00:00 axis-accc8e2dc542 [ INFO    ] poc: Size of data is: 39868
+2019-10-10T12:23:57.982+00:00 axis-accc8e2dc542 [ INFO    ] poc: Data sucessfully sent
+2019-10-10T12:23:57.985+00:00 axis-accc8e2dc542 [ INFO    ] poc: Capturing stream
+2019-10-10T12:23:58.087+00:00 axis-accc8e2dc542 [ INFO    ] poc: Size of data is: 39995
+2019-10-10T12:23:58.091+00:00 axis-accc8e2dc542 [ INFO    ] poc: Data sucessfully sent
+2019-10-10T12:23:58.099+00:00 axis-accc8e2dc542 [ INFO    ] poc: Capturing stream
+2019-10-10T12:23:58.185+00:00 axis-accc8e2dc542 [ INFO    ] poc: Size of data is: 40024
+2019-10-10T12:23:58.193+00:00 axis-accc8e2dc542 [ INFO    ] poc: Data sucessfully sent
+2019-10-10T12:23:58.201+00:00 axis-accc8e2dc542 [ INFO    ] poc: Capturing stream
+2019-10-10T12:23:58.280+00:00 axis-accc8e2dc542 [ INFO    ] poc: Size of data is: 40299
+2019-10-10T12:23:58.281+00:00 axis-accc8e2dc542 [ INFO    ] poc: Data sucessfully sent
+2019-10-10T12:23:58.282+00:00 axis-accc8e2dc542 [ INFO    ] poc: Capturing stream
+2019-10-10T12:23:58.369+00:00 axis-accc8e2dc542 [ INFO    ] poc: Size of data is: 40307
+2019-10-10T12:23:58.370+00:00 axis-accc8e2dc542 [ INFO    ] poc: Data sucessfully sent
+2019-10-10T12:23:58.371+00:00 axis-accc8e2dc542 [ INFO    ] poc: Capturing stream
+2019-10-10T12:23:58.455+00:00 axis-accc8e2dc542 [ INFO    ] poc: Size of data is: 40805
+2019-10-10T12:23:58.456+00:00 axis-accc8e2dc542 [ INFO    ] poc: Data sucessfully sent
+2019-10-10T12:23:58.457+00:00 axis-accc8e2dc542 [ INFO    ] poc: Capturing stream
+2019-10-10T12:23:58.554+00:00 axis-accc8e2dc542 [ INFO    ] poc: Size of data is: 40964
+2019-10-10T12:23:58.555+00:00 axis-accc8e2dc542 [ INFO    ] poc: Data sucessfully sent
+2019-10-10T12:23:58.556+00:00 axis-accc8e2dc542 [ INFO    ] poc: Capturing stream
+2019-10-10T12:23:58.622+00:00 axis-accc8e2dc542 [ INFO    ] poc: Size of data is: 40914
+2019-10-10T12:23:58.623+00:00 axis-accc8e2dc542 [ INFO    ] poc: Data sucessfully sent
+2019-10-10T12:23:58.624+00:00 axis-accc8e2dc542 [ INFO    ] poc: Capturing stream
+2019-10-10T12:23:58.694+00:00 axis-accc8e2dc542 [ INFO    ] poc: Size of data is: 40960
+2019-10-10T12:23:58.695+00:00 axis-accc8e2dc542 [ INFO    ] poc: Data sucessfully sent
+2019-10-10T12:23:58.696+00:00 axis-accc8e2dc542 [ INFO    ] poc: Capturing stream
+2019-10-10T12:23:58.789+00:00 axis-accc8e2dc542 [ INFO    ] poc: Size of data is: 41126
+2019-10-10T12:23:58.790+00:00 axis-accc8e2dc542 [ INFO    ] poc: Data sucessfully sent
+2019-10-10T12:23:58.791+00:00 axis-accc8e2dc542 [ INFO    ] poc: Capturing stream
+2019-10-10T12:23:58.901+00:00 axis-accc8e2dc542 [ INFO    ] poc: Size of data is: 41292
+2019-10-10T12:23:58.905+00:00 axis-accc8e2dc542 [ INFO    ] poc: Data sucessfully sent
+2019-10-10T12:23:58.916+00:00 axis-accc8e2dc542 [ INFO    ] poc: Capturing stream
+2019-10-10T12:23:58.999+00:00 axis-accc8e2dc542 [ INFO    ] poc: Size of data is: 41306
+2019-10-10T12:23:59.001+00:00 axis-accc8e2dc542 [ INFO    ] poc: Data sucessfully sent
+2019-10-10T12:23:59.002+00:00 axis-accc8e2dc542 [ INFO    ] poc: Capturing stream
+2019-10-10T12:23:59.092+00:00 axis-accc8e2dc542 [ INFO    ] poc: Size of data is: 41267
+2019-10-10T12:23:59.093+00:00 axis-accc8e2dc542 [ INFO    ] poc: Data sucessfully sent
+2019-10-10T12:23:59.095+00:00 axis-accc8e2dc542 [ INFO    ] poc: Capturing stream
+2019-10-10T12:23:59.193+00:00 axis-accc8e2dc542 [ INFO    ] poc: Size of data is: 41229
+2019-10-10T12:23:59.194+00:00 axis-accc8e2dc542 [ INFO    ] poc: Data sucessfully sent
+2019-10-10T12:23:59.196+00:00 axis-accc8e2dc542 [ INFO    ] poc: Capturing stream
+2019-10-10T12:23:59.306+00:00 axis-accc8e2dc542 [ INFO    ] poc: Size of data is: 40970
+2019-10-10T12:23:59.312+00:00 axis-accc8e2dc542 [ INFO    ] poc: Data sucessfully sent
+2019-10-10T12:23:59.314+00:00 axis-accc8e2dc542 [ INFO    ] poc: Capturing stream
+2019-10-10T12:23:59.405+00:00 axis-accc8e2dc542 [ INFO    ] poc: Size of data is: 40253
+2019-10-10T12:23:59.409+00:00 axis-accc8e2dc542 [ INFO    ] poc: Data sucessfully sent
+2019-10-10T12:23:59.411+00:00 axis-accc8e2dc542 [ INFO    ] poc: Capturing stream
+2019-10-10T12:23:59.498+00:00 axis-accc8e2dc542 [ INFO    ] poc: Size of data is: 39293
+2019-10-10T12:23:59.503+00:00 axis-accc8e2dc542 [ INFO    ] poc: Data sucessfully sent
+2019-10-10T12:23:59.505+00:00 axis-accc8e2dc542 [ INFO    ] poc: Capturing stream
+2019-10-10T12:23:59.590+00:00 axis-accc8e2dc542 [ INFO    ] poc: Size of data is: 39036
+2019-10-10T12:23:59.591+00:00 axis-accc8e2dc542 [ INFO    ] poc: Data sucessfully sent
+2019-10-10T12:23:59.608+00:00 axis-accc8e2dc542 [ INFO    ] poc: Capturing stream
+2019-10-10T12:23:59.695+00:00 axis-accc8e2dc542 [ INFO    ] poc: Size of data is: 39147
+2019-10-10T12:23:59.696+00:00 axis-accc8e2dc542 [ INFO    ] poc: Data sucessfully sent
+2019-10-10T12:23:59.697+00:00 axis-accc8e2dc542 [ INFO    ] poc: Capturing stream
+2019-10-10T12:23:59.789+00:00 axis-accc8e2dc542 [ INFO    ] poc: Size of data is: 39558
+2019-10-10T12:23:59.791+00:00 axis-accc8e2dc542 [ INFO    ] poc: Data sucessfully sent
+2019-10-10T12:23:59.807+00:00 axis-accc8e2dc542 [ INFO    ] poc: Capturing stream
+2019-10-10T12:23:59.912+00:00 axis-accc8e2dc542 [ INFO    ] poc: Size of data is: 40227
+2019-10-10T12:23:59.913+00:00 axis-accc8e2dc542 [ INFO    ] poc: Data sucessfully sent
+2019-10-10T12:23:59.914+00:00 axis-accc8e2dc542 [ INFO    ] poc: Capturing stream
+2019-10-10T12:24:00.021+00:00 axis-accc8e2dc542 [ INFO    ] poc: Size of data is: 40256
+2019-10-10T12:24:00.022+00:00 axis-accc8e2dc542 [ INFO    ] poc: Data sucessfully sent
+2019-10-10T12:24:00.024+00:00 axis-accc8e2dc542 [ INFO    ] poc: Capturing stream
+2019-10-10T12:24:00.300+00:00 axis-accc8e2dc542 [ INFO    ] poc: Size of data is: 40117
+2019-10-10T12:24:00.309+00:00 axis-accc8e2dc542 [ INFO    ] poc: Data sucessfully sent
+2019-10-10T12:24:00.312+00:00 axis-accc8e2dc542 [ INFO    ] poc: Capturing stream
+2019-10-10T12:24:00.426+00:00 axis-accc8e2dc542 [ INFO    ] poc: Size of data is: 41742
+2019-10-10T12:24:00.432+00:00 axis-accc8e2dc542 [ INFO    ] poc: Data sucessfully sent
+2019-10-10T12:24:00.435+00:00 axis-accc8e2dc542 [ INFO    ] poc: Capturing stream
+2019-10-10T12:24:00.523+00:00 axis-accc8e2dc542 [ INFO    ] poc: Size of data is: 41619
+2019-10-10T12:24:00.526+00:00 axis-accc8e2dc542 [ INFO    ] poc: Data sucessfully sent
+2019-10-10T12:24:00.540+00:00 axis-accc8e2dc542 [ INFO    ] poc: Capturing stream
+2019-10-10T12:24:00.626+00:00 axis-accc8e2dc542 [ INFO    ] poc: Size of data is: 41905
+2019-10-10T12:24:00.633+00:00 axis-accc8e2dc542 [ INFO    ] poc: Data sucessfully sent
+2019-10-10T12:24:00.640+00:00 axis-accc8e2dc542 [ INFO    ] poc: Capturing stream
+2019-10-10T12:24:00.757+00:00 axis-accc8e2dc542 [ INFO    ] poc: Size of data is: 43242
+2019-10-10T12:24:00.759+00:00 axis-accc8e2dc542 [ INFO    ] poc: Data sucessfully sent
+2019-10-10T12:24:00.760+00:00 axis-accc8e2dc542 [ INFO    ] poc: Capturing stream
+2019-10-10T12:24:00.844+00:00 axis-accc8e2dc542 [ INFO    ] poc: Size of data is: 43185
+2019-10-10T12:24:00.845+00:00 axis-accc8e2dc542 [ INFO    ] poc: Data sucessfully sent
+2019-10-10T12:24:00.846+00:00 axis-accc8e2dc542 [ INFO    ] poc: Capturing stream
+2019-10-10T12:24:00.931+00:00 axis-accc8e2dc542 [ INFO    ] poc: Size of data is: 43295
+2019-10-10T12:24:00.934+00:00 axis-accc8e2dc542 [ INFO    ] poc: Data sucessfully sent
+2019-10-10T12:24:00.947+00:00 axis-accc8e2dc542 [ INFO    ] poc: Capturing stream
+2019-10-10T12:24:01.023+00:00 axis-accc8e2dc542 [ INFO    ] poc: Size of data is: 43110
+2019-10-10T12:24:01.024+00:00 axis-accc8e2dc542 [ INFO    ] poc: Data sucessfully sent
+2019-10-10T12:24:01.025+00:00 axis-accc8e2dc542 [ INFO    ] poc: Capturing stream
+2019-10-10T12:24:01.127+00:00 axis-accc8e2dc542 [ INFO    ] poc: Size of data is: 43086
+2019-10-10T12:24:01.131+00:00 axis-accc8e2dc542 [ INFO    ] poc: Data sucessfully sent
+2019-10-10T12:24:01.132+00:00 axis-accc8e2dc542 [ INFO    ] poc: Capturing stream
+2019-10-10T12:24:01.226+00:00 axis-accc8e2dc542 [ INFO    ] poc: Size of data is: 43143
+2019-10-10T12:24:01.228+00:00 axis-accc8e2dc542 [ INFO    ] poc: Data sucessfully sent
+2019-10-10T12:24:01.233+00:00 axis-accc8e2dc542 [ INFO    ] poc: Capturing stream
+2019-10-10T12:24:01.323+00:00 axis-accc8e2dc542 [ INFO    ] poc: Size of data is: 43131
+2019-10-10T12:24:01.324+00:00 axis-accc8e2dc542 [ INFO    ] poc: Data sucessfully sent
+2019-10-10T12:24:01.325+00:00 axis-accc8e2dc542 [ INFO    ] poc: Capturing stream
+2019-10-10T12:24:01.426+00:00 axis-accc8e2dc542 [ INFO    ] poc: Size of data is: 43113
+2019-10-10T12:24:01.427+00:00 axis-accc8e2dc542 [ INFO    ] poc: Data sucessfully sent
+2019-10-10T12:24:01.440+00:00 axis-accc8e2dc542 [ INFO    ] poc: Capturing stream
+2019-10-10T12:24:01.527+00:00 axis-accc8e2dc542 [ INFO    ] poc: Size of data is: 43172
+2019-10-10T12:24:01.533+00:00 axis-accc8e2dc542 [ INFO    ] poc: Data sucessfully sent
+2019-10-10T12:24:01.536+00:00 axis-accc8e2dc542 [ INFO    ] poc: Capturing stream
+2019-10-10T12:24:01.622+00:00 axis-accc8e2dc542 [ INFO    ] poc: Size of data is: 43231
+2019-10-10T12:24:01.625+00:00 axis-accc8e2dc542 [ INFO    ] poc: Data sucessfully sent
+2019-10-10T12:24:01.626+00:00 axis-accc8e2dc542 [ INFO    ] poc: Capturing stream
+2019-10-10T12:24:01.724+00:00 axis-accc8e2dc542 [ INFO    ] poc: Size of data is: 43118
+2019-10-10T12:24:01.727+00:00 axis-accc8e2dc542 [ INFO    ] poc: Data sucessfully sent
+2019-10-10T12:24:01.737+00:00 axis-accc8e2dc542 [ INFO    ] poc: Capturing stream
+2019-10-10T12:24:01.829+00:00 axis-accc8e2dc542 [ INFO    ] poc: Size of data is: 43148
+2019-10-10T12:24:01.839+00:00 axis-accc8e2dc542 [ INFO    ] poc: Data sucessfully sent
+2019-10-10T12:24:01.840+00:00 axis-accc8e2dc542 [ INFO    ] poc: Capturing stream
+2019-10-10T12:24:01.930+00:00 axis-accc8e2dc542 [ INFO    ] poc: Size of data is: 43215
+2019-10-10T12:24:01.934+00:00 axis-accc8e2dc542 [ INFO    ] poc: Data sucessfully sent
+2019-10-10T12:24:01.937+00:00 axis-accc8e2dc542 [ INFO    ] poc: Capturing stream
+2019-10-10T12:24:02.025+00:00 axis-accc8e2dc542 [ INFO    ] poc: Size of data is: 43305
+2019-10-10T12:24:02.026+00:00 axis-accc8e2dc542 [ INFO    ] poc: Data sucessfully sent
+2019-10-10T12:24:02.028+00:00 axis-accc8e2dc542 [ INFO    ] poc: Capturing stream
+2019-10-10T12:24:02.124+00:00 axis-accc8e2dc542 [ INFO    ] poc: Size of data is: 43440
+2019-10-10T12:24:02.126+00:00 axis-accc8e2dc542 [ INFO    ] poc: Capturing stream
+2019-10-10T12:24:02.126+00:00 axis-accc8e2dc542 [ INFO    ] poc: Data sucessfully sent
+2019-10-10T12:24:02.225+00:00 axis-accc8e2dc542 [ INFO    ] poc: Size of data is: 43437
+2019-10-10T12:24:02.231+00:00 axis-accc8e2dc542 [ INFO    ] poc: Data sucessfully sent
+2019-10-10T12:24:02.235+00:00 axis-accc8e2dc542 [ INFO    ] poc: Capturing stream
+2019-10-10T12:24:02.324+00:00 axis-accc8e2dc542 [ INFO    ] poc: Size of data is: 43397
+2019-10-10T12:24:02.339+00:00 axis-accc8e2dc542 [ INFO    ] poc: Data sucessfully sent
+2019-10-10T12:24:02.340+00:00 axis-accc8e2dc542 [ INFO    ] poc: Capturing stream
+2019-10-10T12:24:02.455+00:00 axis-accc8e2dc542 [ INFO    ] poc: Size of data is: 43508
+2019-10-10T12:24:02.459+00:00 axis-accc8e2dc542 [ INFO    ] poc: Data sucessfully sent
+2019-10-10T12:24:02.465+00:00 axis-accc8e2dc542 [ INFO    ] poc: Capturing stream
+2019-10-10T12:24:02.546+00:00 axis-accc8e2dc542 [ INFO    ] poc: Size of data is: 43464
+2019-10-10T12:24:02.547+00:00 axis-accc8e2dc542 [ INFO    ] poc: Data sucessfully sent
+2019-10-10T12:24:02.552+00:00 axis-accc8e2dc542 [ INFO    ] poc: Capturing stream
+2019-10-10T12:24:02.622+00:00 axis-accc8e2dc542 [ INFO    ] poc: Size of data is: 43270
+2019-10-10T12:24:02.623+00:00 axis-accc8e2dc542 [ INFO    ] poc: Capturing stream
+2019-10-10T12:24:02.623+00:00 axis-accc8e2dc542 [ INFO    ] poc: Data sucessfully sent
+2019-10-10T12:24:02.725+00:00 axis-accc8e2dc542 [ INFO    ] poc: Size of data is: 43146
+2019-10-10T12:24:02.727+00:00 axis-accc8e2dc542 [ INFO    ] poc: Data sucessfully sent
+2019-10-10T12:24:02.728+00:00 axis-accc8e2dc542 [ INFO    ] poc: Capturing stream
+2019-10-10T12:24:02.831+00:00 axis-accc8e2dc542 [ INFO    ] poc: Size of data is: 42998
+2019-10-10T12:24:02.840+00:00 axis-accc8e2dc542 [ INFO    ] poc: Data sucessfully sent
+2019-10-10T12:24:02.848+00:00 axis-accc8e2dc542 [ INFO    ] poc: Capturing stream
+2019-10-10T12:24:02.932+00:00 axis-accc8e2dc542 [ INFO    ] poc: Size of data is: 42568
+2019-10-10T12:24:02.933+00:00 axis-accc8e2dc542 [ INFO    ] poc: Error sending data
+2019-10-10T12:24:02.935+00:00 axis-accc8e2dc542 [ INFO    ] poc: 'errno' error is: Broken pipe
+2019-10-10T12:24:02.936+00:00 axis-accc8e2dc542 [ INFO    ] poc: Exiting Socket '8'
+2019-10-10T12:40:22.399+00:00 axis-accc8e2dc542 [ INFO    ] upload.cgi: Uploaded '/tmp/vidcap_2_0_mipsisa32r2el.eap' size:47075
+2019-10-10T12:40:24.418+00:00 axis-accc8e2dc542 [ NOTICE  ] dbus[475]: [system] Reloaded configuration
+2019-10-10T12:40:25.046+00:00 axis-accc8e2dc542 [ NOTICE  ] dbus[475]: [system] Reloaded configuration
+2019-10-10T12:40:27.185+00:00 axis-accc8e2dc542 [ INFO    ] upload.cgi: Package /tmp/vidcap_2_0_mipsisa32r2el.eap installation OK
+2019-10-10T12:40:27.352+00:00 axis-accc8e2dc542 [ NOTICE  ] dbus[475]: [system] Reloaded configuration
+2019-10-10T12:40:27.353+00:00 axis-accc8e2dc542 [ INFO    ] systemd[1]: Reloading.
+2019-10-10T12:40:29.465+00:00 axis-accc8e2dc542 [ NOTICE  ] actionengined-user[1229]: Action rule "Sound triggered text" is starting action "Overlay Text"
+2019-10-10T12:40:30.835+00:00 axis-accc8e2dc542 [ WARNING ] upload.cgi: Failed to set runstate for sdkvidcap: /etc/systemd/system/acap.target.wants/sdkvidcap.service link error
+2019-10-10T12:40:31.219+00:00 axis-accc8e2dc542 [ INFO    ] systemd[1]: Starting vidcap...
+2019-10-10T12:40:31.289+00:00 axis-accc8e2dc542 [ INFO    ] sdkvidcap[3930]: * Starting vidcap...
+2019-10-10T12:40:31.929+00:00 axis-accc8e2dc542 [ INFO    ] vidcap[0]: starting vidcap
+2019-10-10T12:40:32.044+00:00 axis-accc8e2dc542 [ INFO    ] systemd[1]: Started vidcap.
+2019-10-10T12:40:32.046+00:00 axis-accc8e2dc542 [ INFO    ] sdkvidcap[3930]: [ ok ]
+2019-10-10T12:40:56.693+00:00 axis-accc8e2dc542 [ WARNING ] control.cgi: Failed to set runstate for sdkvidcap: /etc/systemd/system/acap.target.wants/sdkvidcap.service link error
+2019-10-10T12:40:56.969+00:00 axis-accc8e2dc542 [ INFO    ] systemd[1]: Stopping vidcap...
+2019-10-10T12:40:57.014+00:00 axis-accc8e2dc542 [ INFO    ] sdkvidcap[4013]: * Stopping vidcap...
+2019-10-10T12:40:57.058+00:00 axis-accc8e2dc542 [ INFO    ] vidcap[0]: stopping vidcap
+2019-10-10T12:40:57.195+00:00 axis-accc8e2dc542 [ WARNING ] sdkvidcap[4013]: respawnd not running.
+2019-10-10T12:40:57.261+00:00 axis-accc8e2dc542 [ INFO    ] sdkvidcap[4013]: No /usr/local/packages/vidcap/vidcap found running; none killed.
+2019-10-10T12:40:57.538+00:00 axis-accc8e2dc542 [ INFO    ] sdkvidcap[4013]: [ ok ]
+2019-10-10T12:40:57.579+00:00 axis-accc8e2dc542 [ INFO    ] systemd[1]: Stopped vidcap.
+2019-10-10T12:40:57.943+00:00 axis-accc8e2dc542 [ INFO    ] systemd[1]: Starting vidcap...
+2019-10-10T12:40:58.056+00:00 axis-accc8e2dc542 [ INFO    ] sdkvidcap[4024]: * Starting vidcap...
+2019-10-10T12:40:58.712+00:00 axis-accc8e2dc542 [ INFO    ] vidcap[0]: starting vidcap
+2019-10-10T12:40:58.776+00:00 axis-accc8e2dc542 [ INFO    ] sdkvidcap[4024]: [ ok ]
+2019-10-10T12:40:58.790+00:00 axis-accc8e2dc542 [ INFO    ] systemd[1]: Started vidcap.
+2019-10-10T12:41:25.763+00:00 axis-accc8e2dc542 [ WARNING ] control.cgi: Failed to set runstate for sdkvidcap: /etc/systemd/system/acap.target.wants/sdkvidcap.service link error
+2019-10-10T12:41:26.040+00:00 axis-accc8e2dc542 [ INFO    ] systemd[1]: Stopping vidcap...
+2019-10-10T12:41:26.106+00:00 axis-accc8e2dc542 [ INFO    ] sdkvidcap[4112]: * Stopping vidcap...
+2019-10-10T12:41:26.130+00:00 axis-accc8e2dc542 [ INFO    ] vidcap[0]: stopping vidcap
+2019-10-10T12:41:26.311+00:00 axis-accc8e2dc542 [ WARNING ] sdkvidcap[4112]: respawnd not running.
+2019-10-10T12:41:26.363+00:00 axis-accc8e2dc542 [ INFO    ] sdkvidcap[4112]: No /usr/local/packages/vidcap/vidcap found running; none killed.
+2019-10-10T12:41:26.611+00:00 axis-accc8e2dc542 [ INFO    ] sdkvidcap[4112]: [ ok ]
+2019-10-10T12:41:26.666+00:00 axis-accc8e2dc542 [ INFO    ] systemd[1]: Stopped vidcap.
+2019-10-10T12:41:27.049+00:00 axis-accc8e2dc542 [ INFO    ] systemd[1]: Starting vidcap...
+2019-10-10T12:41:27.133+00:00 axis-accc8e2dc542 [ INFO    ] sdkvidcap[4122]: * Starting vidcap...
+2019-10-10T12:41:27.712+00:00 axis-accc8e2dc542 [ INFO    ] vidcap[0]: starting vidcap
+2019-10-10T12:41:27.764+00:00 axis-accc8e2dc542 [ INFO    ] sdkvidcap[4122]: [ ok ]
+2019-10-10T12:41:27.776+00:00 axis-accc8e2dc542 [ INFO    ] systemd[1]: Started vidcap.
+2019-10-10T12:53:35.469+00:00 axis-accc8e2dc542 [ INFO    ] systemd[1]: Stopping poc...
+2019-10-10T12:53:35.539+00:00 axis-accc8e2dc542 [ INFO    ] sdkpoc[4270]: * Stopping poc...
+2019-10-10T12:53:35.559+00:00 axis-accc8e2dc542 [ INFO    ] poc[0]: stopping poc
+2019-10-10T12:53:35.686+00:00 axis-accc8e2dc542 [ WARNING ] sdkpoc[4270]: respawnd not running.
+2019-10-10T12:53:36.180+00:00 axis-accc8e2dc542 [ INFO    ] sdkpoc[4270]: [ ok ]
+2019-10-10T12:53:36.220+00:00 axis-accc8e2dc542 [ INFO    ] systemd[1]: Stopped poc.
+2019-10-10T12:53:41.077+00:00 axis-accc8e2dc542 [ INFO    ] upload.cgi: Uploaded '/tmp/poc_1_0_mipsisa32r2el.eap' size:45407
+2019-10-10T12:53:43.569+00:00 axis-accc8e2dc542 [ NOTICE  ] dbus[475]: [system] Reloaded configuration
+2019-10-10T12:53:46.383+00:00 axis-accc8e2dc542 [ NOTICE  ] dbus[475]: message repeated 2 times: [ [system] Reloaded configuration]
+2019-10-10T12:53:46.627+00:00 axis-accc8e2dc542 [ INFO    ] upload.cgi: Package /tmp/poc_1_0_mipsisa32r2el.eap installation OK
+2019-10-10T12:53:46.757+00:00 axis-accc8e2dc542 [ INFO    ] systemd[1]: Reloading.
+2019-10-10T12:53:48.619+00:00 axis-accc8e2dc542 [ NOTICE  ] actionengined-user[1229]: Action rule "Sound triggered text" is starting action "Overlay Text"

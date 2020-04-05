@@ -1,0 +1,216 @@
+
+----- System log -----
+
+2019-09-26T11:52:49.012+00:00 axis-accc8e2da5e5 [ WARNING ] disks[709]: disk.c : Disk disruption detection status changed for SD_DISK. Status = 'disruption'
+2019-09-26T11:52:49.402+00:00 axis-accc8e2da5e5 [ WARNING ] disks[709]: disk.c : Disk disruption detection status changed for NetworkShare. Status = 'disruption'
+2019-09-26T11:52:52.671+00:00 axis-accc8e2da5e5 [ WARNING ] systemd[1]: upnp.service: State 'stop-sigterm' timed out. Killing.
+2019-09-26T11:52:52.721+00:00 axis-accc8e2da5e5 [ WARNING ] systemd[1]: upnp.service: Failed with result 'signal'.
+2019-09-26T11:53:10.169+00:00 axis-accc8e2da5e5 [ INFO    ] ssh-keygen[288]: +--[ RSA 2048]----+
+2019-09-26T11:53:10.169+00:00 axis-accc8e2da5e5 [ INFO    ] ssh-keygen[288]: The key's randomart image is:
+2019-09-26T11:53:10.169+00:00 axis-accc8e2da5e5 [ INFO    ] ssh-keygen[288]: f1:3e:df:91:91:46:a8:d4:33:1f:6d:79:32:19:31:b7 root@axis-accc8e2da5e5
+2019-09-26T11:53:10.169+00:00 axis-accc8e2da5e5 [ INFO    ] ssh-keygen[288]: |              +..|
+2019-09-26T11:53:10.169+00:00 axis-accc8e2da5e5 [ INFO    ] ssh-keygen[288]: |           . . *o|
+2019-09-26T11:53:10.192+00:00 axis-accc8e2da5e5 [ INFO    ] ssh-keygen[288]: |        . . = *E+|
+2019-09-26T11:53:10.193+00:00 axis-accc8e2da5e5 [ INFO    ] ssh-keygen[288]: |         + . = *.|
+2019-09-26T11:53:10.193+00:00 axis-accc8e2da5e5 [ INFO    ] ssh-keygen[288]: |        S o   =  |
+2019-09-26T11:53:10.194+00:00 axis-accc8e2da5e5 [ INFO    ] ssh-keygen[288]: |            . .  |
+2019-09-26T11:53:10.194+00:00 axis-accc8e2da5e5 [ INFO    ] ssh-keygen[288]: |           o . . |
+2019-09-26T11:53:10.194+00:00 axis-accc8e2da5e5 [ INFO    ] ssh-keygen[288]: |          o   o  |
+2019-09-26T11:53:10.194+00:00 axis-accc8e2da5e5 [ INFO    ] ssh-keygen[288]: |         .   . o |
+2019-09-26T11:53:10.195+00:00 axis-accc8e2da5e5 [ INFO    ] ssh-keygen[288]: +-----------------+
+2019-09-26T11:53:10.195+00:00 axis-accc8e2da5e5 [ INFO    ] systemd[1]: Started SSH Key Generation.
+2019-09-26T11:53:10.195+00:00 axis-accc8e2da5e5 [ INFO    ] systemd[1]: Startup finished in 12.464s (kernel) + 1min 1.189s (userspace) = 1min 13.654s.
+2019-09-26T11:53:10.219+00:00 axis-accc8e2da5e5 [ NOTICE  ] actionengined[955]: Action rule "System ready" is starting action "System ready LED"
+2019-09-26T11:53:10.332+00:00 axis-accc8e2da5e5 [ NOTICE  ] dbus[445]: [system] Activating via systemd: service name='com.axis.LEDController' unit='dbus-com.axis.LEDController.service'
+2019-09-26T11:53:10.370+00:00 axis-accc8e2da5e5 [ INFO    ] systemd[1]: Starting LED Controller...
+2019-09-26T11:53:11.002+00:00 axis-accc8e2da5e5 [ NOTICE  ] dbus[445]: [system] Successfully activated service 'com.axis.LEDController'
+2019-09-26T11:53:11.027+00:00 axis-accc8e2da5e5 [ INFO    ] focusd[924]: focusd[924]: DBus connection to LED controller up
+2019-09-26T11:53:11.028+00:00 axis-accc8e2da5e5 [ INFO    ] focusd[924]: DBus connection to LED controller up
+2019-09-26T11:53:11.036+00:00 axis-accc8e2da5e5 [ INFO    ] blinkenlights[1175]: blinkenlights[1175]: D-Bus name com.axis.LEDController acquired
+2019-09-26T11:53:11.040+00:00 axis-accc8e2da5e5 [ INFO    ] blinkenlights[1175]: D-Bus name com.axis.LEDController acquired
+2019-09-26T11:53:11.077+00:00 axis-accc8e2da5e5 [ INFO    ] systemd[1]: Started LED Controller.
+2019-09-26T11:53:37.043+00:00 axis-accc8e2da5e5 [ INFO    ] systemd[1]: Created slice system-sshd.slice.
+2019-09-26T11:53:37.044+00:00 axis-accc8e2da5e5 [ INFO    ] systemd[1]: Starting system-sshd.slice.
+2019-09-26T11:53:37.071+00:00 axis-accc8e2da5e5 [ INFO    ] systemd[1]: Started Per-Connection SSH Daemon (192.168.20.243:59172).
+2019-09-26T11:53:37.072+00:00 axis-accc8e2da5e5 [ INFO    ] systemd[1]: Starting Per-Connection SSH Daemon (192.168.20.243:59172)...
+2019-09-26T11:54:33.424+00:00 axis-accc8e2da5e5 [ INFO    ] ipsetd[660]: Timed out after 120s.
+2019-09-26T11:55:31.387+00:00 axis-accc8e2da5e5 [ INFO    ] upload.cgi: Uploaded '/tmp/poc_1_0_mipsisa32r2el.eap' size:41171
+2019-09-26T11:55:32.414+00:00 axis-accc8e2da5e5 [ NOTICE  ] dbus[445]: [system] Reloaded configuration
+2019-09-26T11:55:33.952+00:00 axis-accc8e2da5e5 [ INFO    ] upload.cgi: Package /tmp/poc_1_0_mipsisa32r2el.eap installation OK
+2019-09-26T11:55:33.954+00:00 axis-accc8e2da5e5 [ NOTICE  ] dbus[445]: message repeated 2 times: [ [system] Reloaded configuration]
+2019-09-26T11:55:40.553+00:00 axis-accc8e2da5e5 [ INFO    ] control.cgi: calling: /etc/init.d/sdkpoc start
+2019-09-26T11:55:40.809+00:00 axis-accc8e2da5e5 [ INFO    ] poc[0]: starting poc
+2019-09-26T11:55:40.892+00:00 axis-accc8e2da5e5 [ INFO    ] poc: Listener on port
+2019-09-26T11:55:40.893+00:00 axis-accc8e2da5e5 [ INFO    ] poc: Wating for connections
+2019-09-26T11:55:51.877+00:00 axis-accc8e2da5e5 [ INFO    ] poc: New connection
+2019-09-26T11:55:51.878+00:00 axis-accc8e2da5e5 [ INFO    ] poc: capturing stream
+2019-09-26T11:55:52.087+00:00 axis-accc8e2da5e5 [ INFO    ] poc: sending stream
+2019-09-26T11:55:52.093+00:00 axis-accc8e2da5e5 [ INFO    ] poc: Welcome message sent successfully
+2019-09-26T12:02:39.374+00:00 axis-accc8e2da5e5 [ INFO    ] systemd[1]: Started Server side include daemon.
+2019-09-26T12:02:39.398+00:00 axis-accc8e2da5e5 [ INFO    ] systemd[1]: Starting Server side include daemon...
+2019-09-26T12:02:45.734+00:00 axis-accc8e2da5e5 [ NOTICE  ] dbus[445]: [system] Activating via systemd: service name='com.axis.TriggerData' unit='dbus-com.axis.TriggerData.service'
+2019-09-26T12:02:45.780+00:00 axis-accc8e2da5e5 [ INFO    ] systemd[1]: Started Trigger daemon.
+2019-09-26T12:02:45.792+00:00 axis-accc8e2da5e5 [ INFO    ] systemd[1]: Starting Trigger daemon...
+2019-09-26T12:02:46.159+00:00 axis-accc8e2da5e5 [ NOTICE  ] dbus[445]: [system] Successfully activated service 'com.axis.TriggerData'
+2019-09-26T12:04:15.714+00:00 axis-accc8e2da5e5 [ NOTICE  ] dbus[445]: [system] Activating via systemd: service name='com.axis.TriggerData' unit='dbus-com.axis.TriggerData.service'
+2019-09-26T12:04:15.755+00:00 axis-accc8e2da5e5 [ INFO    ] systemd[1]: Started Trigger daemon.
+2019-09-26T12:04:15.764+00:00 axis-accc8e2da5e5 [ INFO    ] systemd[1]: Starting Trigger daemon...
+2019-09-26T12:04:16.124+00:00 axis-accc8e2da5e5 [ NOTICE  ] dbus[445]: [system] Successfully activated service 'com.axis.TriggerData'
+2019-09-26T12:04:35.886+00:00 axis-accc8e2da5e5 [ INFO    ] control.cgi: calling: /etc/init.d/sdkpoc stop
+2019-09-26T12:04:35.957+00:00 axis-accc8e2da5e5 [ INFO    ] poc[0]: stopping poc
+2019-09-26T12:05:03.238+00:00 axis-accc8e2da5e5 [ INFO    ] upload.cgi: Uploaded '/tmp/poc_1_0_mipsisa32r2el.eap' size:41234
+2019-09-26T12:05:04.222+00:00 axis-accc8e2da5e5 [ NOTICE  ] dbus[445]: [system] Reloaded configuration
+2019-09-26T12:05:05.727+00:00 axis-accc8e2da5e5 [ INFO    ] upload.cgi: Package /tmp/poc_1_0_mipsisa32r2el.eap installation OK
+2019-09-26T12:05:05.729+00:00 axis-accc8e2da5e5 [ NOTICE  ] dbus[445]: message repeated 2 times: [ [system] Reloaded configuration]
+2019-09-26T12:05:09.584+00:00 axis-accc8e2da5e5 [ INFO    ] control.cgi: calling: /etc/init.d/sdkpoc start
+2019-09-26T12:05:09.844+00:00 axis-accc8e2da5e5 [ INFO    ] poc[0]: starting poc
+2019-09-26T12:05:09.927+00:00 axis-accc8e2da5e5 [ INFO    ] poc: Listener on port
+2019-09-26T12:05:09.928+00:00 axis-accc8e2da5e5 [ INFO    ] poc: Wating for connections
+2019-09-26T12:05:21.081+00:00 axis-accc8e2da5e5 [ INFO    ] parhand[675]: Updated configuration file /etc/sysconfig/layout.conf.
+2019-09-26T12:06:02.046+00:00 axis-accc8e2da5e5 [ INFO    ] poc: New connection
+2019-09-26T12:06:02.047+00:00 axis-accc8e2da5e5 [ INFO    ] poc: capturing stream
+2019-09-26T12:06:02.302+00:00 axis-accc8e2da5e5 [ INFO    ] poc: sending stream
+2019-09-26T12:06:02.303+00:00 axis-accc8e2da5e5 [ INFO    ] poc: Welcome message sent successfully
+2019-09-26T12:07:10.101+00:00 axis-accc8e2da5e5 [ INFO    ] poc: New connection
+2019-09-26T12:07:10.101+00:00 axis-accc8e2da5e5 [ INFO    ] poc: capturing stream
+2019-09-26T12:07:10.294+00:00 axis-accc8e2da5e5 [ INFO    ] poc: sending stream
+2019-09-26T12:07:10.299+00:00 axis-accc8e2da5e5 [ INFO    ] poc: Welcome message sent successfully
+2019-09-26T12:12:43.812+00:00 axis-accc8e2da5e5 [ INFO    ] upload.cgi: Uploaded '/tmp/poc_1_0_mipsisa32r2el.eap' size:41161
+2019-09-26T12:12:44.183+00:00 axis-accc8e2da5e5 [ INFO    ] upload.cgi: calling: /etc/init.d/sdkpoc stop
+2019-09-26T12:12:44.231+00:00 axis-accc8e2da5e5 [ INFO    ] poc[0]: stopping poc
+2019-09-26T12:12:45.360+00:00 axis-accc8e2da5e5 [ NOTICE  ] dbus[445]: [system] Reloaded configuration
+2019-09-26T12:12:47.220+00:00 axis-accc8e2da5e5 [ INFO    ] upload.cgi: Package /tmp/poc_1_0_mipsisa32r2el.eap installation OK
+2019-09-26T12:12:47.221+00:00 axis-accc8e2da5e5 [ NOTICE  ] dbus[445]: message repeated 2 times: [ [system] Reloaded configuration]
+2019-09-26T12:12:50.767+00:00 axis-accc8e2da5e5 [ INFO    ] control.cgi: calling: /etc/init.d/sdkpoc start
+2019-09-26T12:12:51.072+00:00 axis-accc8e2da5e5 [ INFO    ] poc[0]: starting poc
+2019-09-26T12:12:51.175+00:00 axis-accc8e2da5e5 [ INFO    ] poc: Listener on port
+2019-09-26T12:12:51.177+00:00 axis-accc8e2da5e5 [ INFO    ] poc: Wating for connections
+2019-09-26T12:13:24.128+00:00 axis-accc8e2da5e5 [ INFO    ] poc: New connection
+2019-09-26T12:13:24.129+00:00 axis-accc8e2da5e5 [ INFO    ] poc: capturing stream
+2019-09-26T12:13:24.318+00:00 axis-accc8e2da5e5 [ INFO    ] poc: sending stream
+2019-09-26T12:13:24.324+00:00 axis-accc8e2da5e5 [ INFO    ] poc: Welcome message sent successfully
+2019-09-26T12:17:39.021+00:00 axis-accc8e2da5e5 [ INFO    ] poc: New connection
+2019-09-26T12:17:39.022+00:00 axis-accc8e2da5e5 [ INFO    ] poc: capturing stream
+2019-09-26T12:17:39.186+00:00 axis-accc8e2da5e5 [ INFO    ] poc: sending stream
+2019-09-26T12:17:39.191+00:00 axis-accc8e2da5e5 [ INFO    ] poc: Welcome message sent successfully
+2019-09-26T12:20:06.878+00:00 axis-accc8e2da5e5 [ INFO    ] poc: New connection
+2019-09-26T12:20:06.879+00:00 axis-accc8e2da5e5 [ INFO    ] poc: capturing stream
+2019-09-26T12:20:06.980+00:00 axis-accc8e2da5e5 [ INFO    ] poc: sending stream
+2019-09-26T12:20:06.983+00:00 axis-accc8e2da5e5 [ INFO    ] poc: Welcome message sent successfully
+2019-09-26T12:29:49.535+00:00 axis-accc8e2da5e5 [ INFO    ] poc: New connection
+2019-09-26T12:29:49.536+00:00 axis-accc8e2da5e5 [ INFO    ] poc: capturing stream
+2019-09-26T12:29:49.678+00:00 axis-accc8e2da5e5 [ INFO    ] poc: sending stream
+2019-09-26T12:29:49.679+00:00 axis-accc8e2da5e5 [ INFO    ] poc: Welcome message sent successfully
+2019-09-26T12:30:04.163+00:00 axis-accc8e2da5e5 [ INFO    ] poc: New connection
+2019-09-26T12:30:04.164+00:00 axis-accc8e2da5e5 [ INFO    ] poc: capturing stream
+2019-09-26T12:30:04.353+00:00 axis-accc8e2da5e5 [ INFO    ] poc: sending stream
+2019-09-26T12:30:04.359+00:00 axis-accc8e2da5e5 [ INFO    ] poc: Welcome message sent successfully
+2019-09-26T12:30:25.178+00:00 axis-accc8e2da5e5 [ INFO    ] poc: New connection
+2019-09-26T12:30:25.179+00:00 axis-accc8e2da5e5 [ INFO    ] poc: capturing stream
+2019-09-26T12:30:25.352+00:00 axis-accc8e2da5e5 [ INFO    ] poc: sending stream
+2019-09-26T12:30:25.358+00:00 axis-accc8e2da5e5 [ INFO    ] poc: Welcome message sent successfully
+2019-09-26T12:32:43.002+00:00 axis-accc8e2da5e5 [ INFO    ] poc: New connection
+2019-09-26T12:32:43.004+00:00 axis-accc8e2da5e5 [ INFO    ] poc: capturing stream
+2019-09-26T12:32:43.147+00:00 axis-accc8e2da5e5 [ INFO    ] poc: sending stream
+2019-09-26T12:32:43.150+00:00 axis-accc8e2da5e5 [ INFO    ] poc: Welcome message sent successfully
+2019-09-26T12:38:46.533+00:00 axis-accc8e2da5e5 [ INFO    ] poc: New connection
+2019-09-26T12:38:46.534+00:00 axis-accc8e2da5e5 [ INFO    ] poc: capturing stream
+2019-09-26T12:38:46.729+00:00 axis-accc8e2da5e5 [ INFO    ] poc: sending stream
+2019-09-26T12:38:46.734+00:00 axis-accc8e2da5e5 [ INFO    ] poc: Welcome message sent successfully
+2019-09-26T12:39:04.127+00:00 axis-accc8e2da5e5 [ INFO    ] poc: New connection
+2019-09-26T12:39:04.127+00:00 axis-accc8e2da5e5 [ INFO    ] poc: capturing stream
+2019-09-26T12:39:04.334+00:00 axis-accc8e2da5e5 [ INFO    ] poc: sending stream
+2019-09-26T12:39:04.335+00:00 axis-accc8e2da5e5 [ INFO    ] poc: Welcome message sent successfully
+2019-09-26T12:52:00.438+00:00 axis-accc8e2da5e5 [ INFO    ] poc: New connection
+2019-09-26T12:52:00.438+00:00 axis-accc8e2da5e5 [ INFO    ] poc: capturing stream
+2019-09-26T12:52:00.615+00:00 axis-accc8e2da5e5 [ INFO    ] poc: sending stream
+2019-09-26T12:52:00.619+00:00 axis-accc8e2da5e5 [ INFO    ] poc: Welcome message sent successfully
+2019-09-26T12:52:47.422+00:00 axis-accc8e2da5e5 [ INFO    ] poc: New connection
+2019-09-26T12:52:47.423+00:00 axis-accc8e2da5e5 [ INFO    ] poc: capturing stream
+2019-09-26T12:52:47.612+00:00 axis-accc8e2da5e5 [ INFO    ] poc: sending stream
+2019-09-26T12:52:47.617+00:00 axis-accc8e2da5e5 [ INFO    ] poc: Welcome message sent successfully
+2019-09-26T12:54:09.727+00:00 axis-accc8e2da5e5 [ INFO    ] poc: New connection
+2019-09-26T12:54:09.732+00:00 axis-accc8e2da5e5 [ INFO    ] poc: capturing stream
+2019-09-26T12:54:09.888+00:00 axis-accc8e2da5e5 [ INFO    ] poc: sending stream
+2019-09-26T12:54:09.893+00:00 axis-accc8e2da5e5 [ INFO    ] poc: Welcome message sent successfully
+2019-09-26T12:59:57.336+00:00 axis-accc8e2da5e5 [ INFO    ] poc: New connection
+2019-09-26T12:59:57.337+00:00 axis-accc8e2da5e5 [ INFO    ] poc: capturing stream
+2019-09-26T12:59:57.472+00:00 axis-accc8e2da5e5 [ INFO    ] poc: sending stream
+2019-09-26T12:59:57.477+00:00 axis-accc8e2da5e5 [ INFO    ] poc: Welcome message sent successfully
+2019-09-26T13:01:14.113+00:00 axis-accc8e2da5e5 [ INFO    ] poc: New connection
+2019-09-26T13:01:14.114+00:00 axis-accc8e2da5e5 [ INFO    ] poc: capturing stream
+2019-09-26T13:01:14.268+00:00 axis-accc8e2da5e5 [ INFO    ] poc: sending stream
+2019-09-26T13:01:14.274+00:00 axis-accc8e2da5e5 [ INFO    ] poc: Welcome message sent successfully
+2019-09-26T13:02:40.715+00:00 axis-accc8e2da5e5 [ INFO    ] upload.cgi: Uploaded '/tmp/poc_1_0_mipsisa32r2el.eap' size:41230
+2019-09-26T13:02:41.091+00:00 axis-accc8e2da5e5 [ INFO    ] upload.cgi: calling: /etc/init.d/sdkpoc stop
+2019-09-26T13:02:41.137+00:00 axis-accc8e2da5e5 [ INFO    ] poc[0]: stopping poc
+2019-09-26T13:02:42.374+00:00 axis-accc8e2da5e5 [ NOTICE  ] dbus[445]: [system] Reloaded configuration
+2019-09-26T13:02:44.256+00:00 axis-accc8e2da5e5 [ INFO    ] upload.cgi: Package /tmp/poc_1_0_mipsisa32r2el.eap installation OK
+2019-09-26T13:02:44.257+00:00 axis-accc8e2da5e5 [ NOTICE  ] dbus[445]: message repeated 2 times: [ [system] Reloaded configuration]
+2019-09-26T13:02:47.538+00:00 axis-accc8e2da5e5 [ INFO    ] control.cgi: calling: /etc/init.d/sdkpoc start
+2019-09-26T13:02:47.855+00:00 axis-accc8e2da5e5 [ INFO    ] poc[0]: starting poc
+2019-09-26T13:02:47.956+00:00 axis-accc8e2da5e5 [ INFO    ] poc: Listener on port
+2019-09-26T13:02:47.957+00:00 axis-accc8e2da5e5 [ INFO    ] poc: Wating for connections
+2019-09-26T13:02:55.127+00:00 axis-accc8e2da5e5 [ INFO    ] poc: New connection
+2019-09-26T13:02:55.127+00:00 axis-accc8e2da5e5 [ INFO    ] poc: capturing stream
+2019-09-26T13:02:55.304+00:00 axis-accc8e2da5e5 [ INFO    ] poc: sending stream
+2019-09-26T13:02:55.311+00:00 axis-accc8e2da5e5 [ INFO    ] poc: error sending
+2019-09-26T13:02:55.312+00:00 axis-accc8e2da5e5 [ INFO    ] poc: Welcome message sent successfully
+2019-09-26T13:03:43.419+00:00 axis-accc8e2da5e5 [ INFO    ] upload.cgi: Uploaded '/tmp/poc_1_0_mipsisa32r2el.eap' size:41238
+2019-09-26T13:03:43.805+00:00 axis-accc8e2da5e5 [ INFO    ] upload.cgi: calling: /etc/init.d/sdkpoc stop
+2019-09-26T13:03:43.854+00:00 axis-accc8e2da5e5 [ INFO    ] poc[0]: stopping poc
+2019-09-26T13:03:45.000+00:00 axis-accc8e2da5e5 [ NOTICE  ] dbus[445]: [system] Reloaded configuration
+2019-09-26T13:03:46.886+00:00 axis-accc8e2da5e5 [ INFO    ] upload.cgi: Package /tmp/poc_1_0_mipsisa32r2el.eap installation OK
+2019-09-26T13:03:46.887+00:00 axis-accc8e2da5e5 [ NOTICE  ] dbus[445]: message repeated 2 times: [ [system] Reloaded configuration]
+2019-09-26T13:03:50.365+00:00 axis-accc8e2da5e5 [ INFO    ] control.cgi: calling: /etc/init.d/sdkpoc start
+2019-09-26T13:03:50.685+00:00 axis-accc8e2da5e5 [ INFO    ] poc[0]: starting poc
+2019-09-26T13:03:50.791+00:00 axis-accc8e2da5e5 [ INFO    ] poc: Listener on port
+2019-09-26T13:03:50.792+00:00 axis-accc8e2da5e5 [ INFO    ] poc: Wating for connections
+2019-09-26T13:04:00.388+00:00 axis-accc8e2da5e5 [ INFO    ] poc: New connection
+2019-09-26T13:04:00.389+00:00 axis-accc8e2da5e5 [ INFO    ] poc: capturing stream
+2019-09-26T13:04:00.585+00:00 axis-accc8e2da5e5 [ INFO    ] poc: sending stream
+2019-09-26T13:04:00.587+00:00 axis-accc8e2da5e5 [ INFO    ] poc: Welcome message sent successfully
+2019-09-26T13:04:32.784+00:00 axis-accc8e2da5e5 [ INFO    ] upload.cgi: Uploaded '/tmp/poc_1_0_mipsisa32r2el.eap' size:41156
+2019-09-26T13:04:33.161+00:00 axis-accc8e2da5e5 [ INFO    ] upload.cgi: calling: /etc/init.d/sdkpoc stop
+2019-09-26T13:04:33.213+00:00 axis-accc8e2da5e5 [ INFO    ] poc[0]: stopping poc
+2019-09-26T13:04:34.335+00:00 axis-accc8e2da5e5 [ NOTICE  ] dbus[445]: [system] Reloaded configuration
+2019-09-26T13:04:36.219+00:00 axis-accc8e2da5e5 [ INFO    ] upload.cgi: Package /tmp/poc_1_0_mipsisa32r2el.eap installation OK
+2019-09-26T13:04:36.226+00:00 axis-accc8e2da5e5 [ NOTICE  ] dbus[445]: message repeated 2 times: [ [system] Reloaded configuration]
+2019-09-26T13:04:39.476+00:00 axis-accc8e2da5e5 [ INFO    ] control.cgi: calling: /etc/init.d/sdkpoc start
+2019-09-26T13:04:39.792+00:00 axis-accc8e2da5e5 [ INFO    ] poc[0]: starting poc
+2019-09-26T13:04:39.896+00:00 axis-accc8e2da5e5 [ INFO    ] poc: Listener on port
+2019-09-26T13:04:39.897+00:00 axis-accc8e2da5e5 [ INFO    ] poc: Wating for connections
+2019-09-26T13:04:49.762+00:00 axis-accc8e2da5e5 [ INFO    ] poc: New connection
+2019-09-26T13:04:49.762+00:00 axis-accc8e2da5e5 [ INFO    ] poc: capturing stream
+2019-09-26T13:04:49.939+00:00 axis-accc8e2da5e5 [ INFO    ] poc: sending stream
+2019-09-26T13:04:49.948+00:00 axis-accc8e2da5e5 [ INFO    ] poc: Welcome message sent successfully
+2019-09-26T13:06:38.025+00:00 axis-accc8e2da5e5 [ INFO    ] upload.cgi: Uploaded '/tmp/poc_1_0_mipsisa32r2el.eap' size:41238
+2019-09-26T13:06:38.415+00:00 axis-accc8e2da5e5 [ INFO    ] upload.cgi: calling: /etc/init.d/sdkpoc stop
+2019-09-26T13:06:38.468+00:00 axis-accc8e2da5e5 [ INFO    ] poc[0]: stopping poc
+2019-09-26T13:06:39.607+00:00 axis-accc8e2da5e5 [ NOTICE  ] dbus[445]: [system] Reloaded configuration
+2019-09-26T13:06:41.544+00:00 axis-accc8e2da5e5 [ INFO    ] upload.cgi: Package /tmp/poc_1_0_mipsisa32r2el.eap installation OK
+2019-09-26T13:06:41.546+00:00 axis-accc8e2da5e5 [ NOTICE  ] dbus[445]: message repeated 2 times: [ [system] Reloaded configuration]
+2019-09-26T13:06:46.163+00:00 axis-accc8e2da5e5 [ INFO    ] control.cgi: calling: /etc/init.d/sdkpoc start
+2019-09-26T13:06:46.483+00:00 axis-accc8e2da5e5 [ INFO    ] poc[0]: starting poc
+2019-09-26T13:06:46.588+00:00 axis-accc8e2da5e5 [ INFO    ] poc: Listener on port
+2019-09-26T13:06:46.589+00:00 axis-accc8e2da5e5 [ INFO    ] poc: Wating for connections
+2019-09-26T13:06:53.612+00:00 axis-accc8e2da5e5 [ INFO    ] poc: New connection
+2019-09-26T13:06:53.613+00:00 axis-accc8e2da5e5 [ INFO    ] poc: capturing stream
+2019-09-26T13:06:53.814+00:00 axis-accc8e2da5e5 [ INFO    ] poc: sending stream
+2019-09-26T13:06:53.819+00:00 axis-accc8e2da5e5 [ INFO    ] poc: Welcome message sent successfully
+2019-09-26T13:07:07.036+00:00 axis-accc8e2da5e5 [ INFO    ] control.cgi: calling: /etc/init.d/sdkpoc stop
+2019-09-26T13:07:07.086+00:00 axis-accc8e2da5e5 [ INFO    ] poc[0]: stopping poc
+2019-09-26T13:07:10.828+00:00 axis-accc8e2da5e5 [ INFO    ] control.cgi: calling: /etc/init.d/sdkpoc start
+2019-09-26T13:07:11.148+00:00 axis-accc8e2da5e5 [ INFO    ] poc[0]: starting poc
+2019-09-26T13:07:11.254+00:00 axis-accc8e2da5e5 [ INFO    ] poc: Listener on port
+2019-09-26T13:07:11.256+00:00 axis-accc8e2da5e5 [ INFO    ] poc: Wating for connections
+2019-09-26T13:07:20.998+00:00 axis-accc8e2da5e5 [ INFO    ] poc: New connection
+2019-09-26T13:07:21.003+00:00 axis-accc8e2da5e5 [ INFO    ] poc: capturing stream
+2019-09-26T13:07:21.173+00:00 axis-accc8e2da5e5 [ INFO    ] poc: sending stream
+2019-09-26T13:07:21.178+00:00 axis-accc8e2da5e5 [ INFO    ] poc: Welcome message sent successfully
+2019-09-26T13:07:38.914+00:00 axis-accc8e2da5e5 [ INFO    ] upload.cgi: Uploaded '/tmp/poc_1_0_mipsisa32r2el.eap' size:41236
+2019-09-26T13:07:39.313+00:00 axis-accc8e2da5e5 [ INFO    ] upload.cgi: calling: /etc/init.d/sdkpoc stop
+2019-09-26T13:07:39.366+00:00 axis-accc8e2da5e5 [ INFO    ] poc[0]: stopping poc
+2019-09-26T13:07:40.523+00:00 axis-accc8e2da5e5 [ NOTICE  ] dbus[445]: [system] Reloaded configuration
+2019-09-26T13:07:42.400+00:00 axis-accc8e2da5e5 [ INFO    ] upload.cgi: Package /tmp/poc_1_0_mipsisa32r2el.eap installation OK
+2019-09-26T13:07:42.402+00:00 axis-accc8e2da5e5 [ NOTICE  ] dbus[445]: message repeated 2 times: [ [system] Reloaded configuration]
